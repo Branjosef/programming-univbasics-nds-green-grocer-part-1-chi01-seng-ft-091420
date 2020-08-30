@@ -23,7 +23,7 @@ def consolidate_cart(cart)
     counts[element] += 1
  end
  test2 = test.each do |k,v|
-   k[:order] = v
+   k[:count] = v
  end
  test3=test2.keys
  p test3
