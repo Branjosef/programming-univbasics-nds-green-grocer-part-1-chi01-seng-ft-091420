@@ -26,7 +26,7 @@ def consolidate_cart(cart)
    k[:order] = v
  end
  test3=test2.keys
- test3
+ p test3
 
 end
 
